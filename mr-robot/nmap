@@ -1,0 +1,28 @@
+# Nmap 7.91 scan initiated Wed Mar 24 19:37:37 2021 as: nmap -T4 -A -oN nmap -p 80,443 192.168.229.162
+Nmap scan report for 192.168.229.162
+Host is up (0.0010s latency).
+
+PORT    STATE SERVICE  VERSION
+80/tcp  open  http     Apache httpd
+|_http-server-header: Apache
+|_http-title: Site doesn't have a title (text/html).
+443/tcp open  ssl/http Apache httpd
+|_http-server-header: Apache
+|_http-title: Site doesn't have a title (text/html).
+| ssl-cert: Subject: commonName=www.example.com
+| Not valid before: 2015-09-16T10:45:03
+|_Not valid after:  2025-09-13T10:45:03
+Warning: OSScan results may be unreliable because we could not find at least 1 open and 1 closed port
+Device type: general purpose
+Running: Linux 3.X|4.X
+OS CPE: cpe:/o:linux:linux_kernel:3 cpe:/o:linux:linux_kernel:4
+OS details: Linux 3.10 - 4.11, Linux 3.2 - 4.9
+Network Distance: 2 hops
+
+TRACEROUTE (using port 443/tcp)
+HOP RTT     ADDRESS
+1   0.25 ms Toyin.mshome.net (172.20.240.1)
+2   1.26 ms 192.168.229.162
+
+OS and Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+# Nmap done at Wed Mar 24 19:38:21 2021 -- 1 IP address (1 host up) scanned in 44.59 seconds
